@@ -1,0 +1,14 @@
+/*Elements*/
+body {
+  margin: 0 auto;
+  background-color: teal;
+}
+
+h1 {
+  color: white;
+}
+
+/*Classes*/
+.center {
+  text-align: center;
+}

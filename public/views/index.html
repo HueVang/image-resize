@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Image Resize</title>
+    <script src="../scripts/index.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="../styles/style.css">
+  </head>
+  <body>
+    <div class="center">
+      <h1>Image Resizer</h1>
+      <!-- <button onClick="resize()">Resize</button> -->
+      <!-- <button method="post" action="/resize">Resize</button> -->
+      <form method="post" enctype="multipart/form-data" action="/resize">
+      <!-- <input type="file" name="upl" multiple/><br /> -->
+      <input type="submit" onsubmit="event.preventDefault()"/>
+    </form>
+    </div>
+    <div class="center">
+      <img src="../images/react-2.png" alt="React Resized Image" />
+      <img src="../images/react.png" alt="React Image" />
+    </div>
+  </body>
+</html>
